@@ -21,7 +21,7 @@ Output:
 Sample command:
 
 
-    split_files  myfile.ext.1  myfile.ext.2  myfile.ext.3 myfile.ext
+    merge_files  myfile.ext.1  myfile.ext.2  myfile.ext.3 myfile.ext
 
 Output:
 
