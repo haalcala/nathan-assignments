@@ -58,7 +58,6 @@ Choose your favourite programming language and comply as instructed. Don't use a
 
 Sample command:
 
-
     split_files myfile.ext 1mb
 
 Output:
