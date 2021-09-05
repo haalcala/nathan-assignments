@@ -1,6 +1,6 @@
 # Assignments for Nathan
 
-Choose your favourite programming language and comply as instructed. Don't use any library.
+Choose your favourite programming language and comply as instructed. Don't use any library unless otherwise stateds.
 
 
 ## 1 Dump file as hex
