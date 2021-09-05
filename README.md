@@ -91,113 +91,113 @@ Output:
 
 ## 4 Split files in size
 
-    Sample command:
+Sample command:
 
 
-        split_files myfile.ext 1mb
+    split_files myfile.ext 1mb
 
-    Output:
+Output:
 
-        Splitting myfile.ext to 1mb each chunk
+    Splitting myfile.ext to 1mb each chunk
 
-        Files:
+    Files:
 
-            myfile.ext.1 (1024KB)
-            myfile.ext.2 (1024KB)
-            myfile.ext.3 (512KB)
+        myfile.ext.1 (1024KB)
+        myfile.ext.2 (1024KB)
+        myfile.ext.3 (512KB)
 
 
 ## 5 Compare text files
 
-    Sample command:
+Sample command:
 
-        compare newfile.txt oldfile.txt
+    compare newfile.txt oldfile.txt
 
 
-    Sample output:
+Sample output:
 
-        -- newfile.txt: line 2
-        + new line in newfile
-        -- newfile.txt: line 6
-        - removed line in oldfile
-        + replaced line in newfile
+    -- newfile.txt: line 2
+    + new line in newfile
+    -- newfile.txt: line 6
+    - removed line in oldfile
+    + replaced line in newfile
 
-    Data:
+Data:
 
-        newfile.txt:
+    newfile.txt:
 
-        the quick
-        new line in newfile
-        brown fox
-        jumps over
-        the lazy 
-        replaced line in newfile
-        grumpy dog
+    the quick
+    new line in newfile
+    brown fox
+    jumps over
+    the lazy 
+    replaced line in newfile
+    grumpy dog
 
-        oldfile.txt:
+    oldfile.txt:
 
-        the quick
-        brown fox
-        jumps over
-        the lazy 
-        removed line in oldfile
-        grumpy dog
+    the quick
+    brown fox
+    jumps over
+    the lazy 
+    removed line in oldfile
+    grumpy dog
 
 
 
 ## 6 CSV Parser
 
-    Sample command:
+Sample command:
 
-        read_csv file1.csv
+    read_csv file1.csv
 
 
-    Sample output:
+Sample output:
 
-        ╔═══════════╤═══════════╤═════════════╤═════════════════╗
-        ║    col1   │    col2   │    col3     │      col4       ║
-        ╠═══════════╪═══════════╪═════════════╪═════════════════╣
-        ║ abcd      │ efgh      │ ijkl        │                 ║
-        ╟───────────┼───────────┼─────────────┼─────────────────╢
-        ║ the quick │ brown fox │ jumps over  │ the lazy dog    ║
-        ╟───────────┼───────────┼─────────────┼─────────────────╢
-        ║       123 │       456 │             │ 789             ║
-        ╚═══════════╧═══════════╧═════════════╧═════════════════╝
+    ╔═══════════╤═══════════╤═════════════╤═════════════════╗
+    ║    col1   │    col2   │    col3     │      col4       ║
+    ╠═══════════╪═══════════╪═════════════╪═════════════════╣
+    ║ abcd      │ efgh      │ ijkl        │                 ║
+    ╟───────────┼───────────┼─────────────┼─────────────────╢
+    ║ the quick │ brown fox │ jumps over  │ the lazy dog    ║
+    ╟───────────┼───────────┼─────────────┼─────────────────╢
+    ║       123 │       456 │             │ 789             ║
+    ╚═══════════╧═══════════╧═════════════╧═════════════════╝
 
 
 ## 7 XML Parser
 
-    Sample command:
+Sample command:
 
-        parst_xml file1.xml
-
-
-    Sample output:
-
-        file1.xml
-         xml
-         ├ tag1
-         │  ├ tag2 (attr1="this is attr1 value")
-         │  └ tag3
-         └ tag2
-            ├ tag3
-            │  └ "Hello world"
-            └ tag3
-               └ "another text"
+    parst_xml file1.xml
 
 
-    Data:
+Sample output:
 
-        <xml>
-            <tag1>
-                <tag2 attr1="this is attr1 value"/>
-                <tag3><tag3/>
-            </tag1>
-            <tag2 attr2="tag2 value">
-                Hello world
-            </tag2>
-            <tag3>another text</tag3>
-        </xml>
+    file1.xml
+        xml
+        ├ tag1
+        │  ├ tag2 (attr1="this is attr1 value")
+        │  └ tag3
+        └ tag2
+        ├ tag3
+        │  └ "Hello world"
+        └ tag3
+            └ "another text"
+
+
+Data:
+
+    <xml>
+        <tag1>
+            <tag2 attr1="this is attr1 value"/>
+            <tag3><tag3/>
+        </tag1>
+        <tag2 attr2="tag2 value">
+            Hello world
+        </tag2>
+        <tag3>another text</tag3>
+    </xml>
 
 
 
