@@ -54,23 +54,39 @@ Choose your favourite programming language and comply as instructed. Don't use a
           
 
 
-## 3 Split files in lines
+## 3a Split files in lines
 
-    Sample command:
+Sample command:
 
 
-        split_files myfile.ext 1mb
+    split_files myfile.ext 1mb
 
-    Output:
+Output:
 
-        Splitting myfile.ext to 1mb each chunk
+    Splitting myfile.ext to 1mb each chunk
 
-        Files:
+    Files:
 
-            myfile.ext.1 (102KB)
-            myfile.ext.2 (14KB)
-            myfile.ext.3 (5KB)
+        myfile.ext.1 (102KB)
+        myfile.ext.2 (14KB)
+        myfile.ext.3 (5KB)
 
+
+## 3b Merge
+
+Sample command:
+
+
+    split_files  myfile.ext.1  myfile.ext.2  myfile.ext.3 myfile.ext
+
+Output:
+
+    Merging files myfile.ext.1  myfile.ext.2  myfile.ext.3 to myfile.ext ...
+    Merging files myfile.ext.1  myfile.ext.2  myfile.ext.3 to myfile.ext ... done.
+
+    Files:
+
+        myfile.ext
 
 
 ## 4 Split files in size
