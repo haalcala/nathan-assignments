@@ -3,7 +3,7 @@
 Choose your favourite programming language and comply as instructed. Don't use any library unless otherwise stateds.
 
 
-## 1 Dump file as hex
+## 1) Dump file as hex
 
 
     Sample Command:
@@ -33,7 +33,7 @@ Choose your favourite programming language and comply as instructed. Don't use a
 
 
 
-## 2 File tree display
+## 2) File tree display
 
     Sample Command:
 
@@ -54,7 +54,7 @@ Choose your favourite programming language and comply as instructed. Don't use a
           
 
 
-## 3a Split files in lines
+## 3a) Split files in lines
 
 Sample command:
 
@@ -71,7 +71,7 @@ Output:
         myfile.ext.3 (5KB)
 
 
-## 3b Merge
+## 3b) Merge
 
 Sample command:
 
@@ -88,7 +88,7 @@ Output:
         myfile.ext
 
 
-## 4 Split files in size
+## 4) Split files in size
 
 Sample command:
 
@@ -106,7 +106,7 @@ Output:
         myfile.ext.3 (512KB)
 
 
-## 5 Compare text files
+## 5) Compare text files
 
 Sample command:
 
@@ -144,7 +144,7 @@ Data:
 
 
 
-## 6 CSV Parser
+## 6) CSV Parser
 
 Sample command:
 
@@ -164,7 +164,7 @@ Sample output:
     ╚═══════════╧═══════════╧═════════════╧═════════════════╝
 
 
-## 7 XML Parser
+## 7) XML Parser
 
 Sample command:
 
@@ -200,7 +200,7 @@ Data:
 
 
 
-## 8 HTML Parser
+## 8) HTML Parser
 
 Sample command:
 
@@ -236,7 +236,7 @@ Data:
 
 
 
-## 9 GET HTML Texts
+## 9) GET HTML Texts
 
 Sample command:
 
@@ -262,7 +262,7 @@ Data:
     </html>
 
 
-## 10 Socket server (echo)
+## 10) Socket server (echo)
 
 Sample command:
 
@@ -277,7 +277,7 @@ Sample output:
 
 
 
-## 11 Socket client
+## 11) Socket client
 
 Sample command:
 
@@ -292,7 +292,7 @@ Sample output:
 
 
 
-## 12 Simple Chat P2P
+## 12) Simple Chat P2P
 
 Sample command:
 
@@ -323,7 +323,7 @@ Sample output:
 
 
 
-## 13 Chat server/client
+## 13) Chat server/client
 
 Sample command:
 
@@ -394,7 +394,7 @@ Sample output:
 
 
 
-## 14 Proxy server
+## 14) Proxy server
 
 Sample command:
 
@@ -408,7 +408,7 @@ Sample output:
 
 
 
-## 15 HTTP Server
+## 15) HTTP Server
 
 Sample command:
 
@@ -437,7 +437,7 @@ Sample output:
 
 
 
-## 16 HTTP Server (Nginx)
+## 16) HTTP Server (Nginx)
 
 Serve static files
 
@@ -445,23 +445,11 @@ Basic Auth
 
 
 
-## 17 Secured HTTP Server (Use node js and self-signed certificate)
+## 17) Secured HTTP Server (Use node js and self-signed certificate)
 
 
 
-## 18 SMTP Client
-
-Sample command:
-
-
-Sample output:
-
-
-Data:
-
-
-
-## 19 POP3 Client
+## 18) SMTP Client
 
 Sample command:
 
@@ -473,7 +461,7 @@ Data:
 
 
 
-## 20 FTP Client
+## 19) POP3 Client
 
 Sample command:
 
@@ -485,7 +473,19 @@ Data:
 
 
 
-## 21 API Server (via Socket)
+## 20) FTP Client
+
+Sample command:
+
+
+Sample output:
+
+
+Data:
+
+
+
+## 21) API Server (via Socket)
 
 Sample command and output:
 
@@ -529,7 +529,7 @@ Sample command and output:
 
 
 
-## 22 API Server (via HTTP)
+## 22) API Server (via HTTP)
 
 Sample command and output (in JSON):
 
@@ -590,36 +590,36 @@ Sample command and output (in JSON):
 
 
 
-## 23 Hashing for security (MD5) <- Use "API Server (via HTTP)"
+## 23) Hashing for security (MD5) <- Use "API Server (via HTTP)"
 
 
 
-## 24 Web authentications : Basic Auth <- Use "API Server (via HTTP)"
+## 24) Web authentications : Basic Auth <- Use "API Server (via HTTP)"
 
 
 
 
-## 25 Web authentications : OAuth 2.0 (with Github)
+## 25) Web authentications : OAuth 2.0 (with Github)
 
 
 
-## 26 Web authentications : SAML 2.0
+## 26) Web authentications : SAML 2.0
 
 
 
-## 27 Web authentications : Custom login
+## 27) Web authentications : Custom login
 
 
 
-## 28 Caching : Local
+## 28) Caching : Local
 
 
 
-## 29 Caching : Remote (Redis)
+## 29) Caching : Remote (Redis)
 
 
 
-## 30 Data Converter : XML to CSV
+## 30) Data Converter : XML to CSV
 
 Sample command:
 
@@ -652,5 +652,5 @@ Data:
 
 
 
-## 31 Data Converter : File to API
+## 31) Data Converter : File to API
 
